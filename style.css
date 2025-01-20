@@ -1,16 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-h1 {
-    text-align: center;
-    color: #ff0202;
+header{
+    background-color:rgb(22, 2, 56);
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color :azure;
+    font-weight: 700;
+    font-size: 1.8em;
 }
 
-p {
-    text-align: center;
+.navigation a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+}
+.main span{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.main h3{
+    color: rgb(236, 9, 9);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.main-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(27, 27, 221) ;
+    display: inline-block;
+    padding: 0.9em 1.7em;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
 }
