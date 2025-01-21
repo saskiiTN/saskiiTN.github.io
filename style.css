@@ -30,6 +30,12 @@ header{
     color: azure;
     font-size: 1em;
     padding-left: 30px;
+    transition: 0.15s;
+}
+
+.navigation a:hover{
+    font-size:1.1em ;
+    color: rgb(184, 184, 255);
 }
 
 section{
@@ -73,9 +79,113 @@ section{
     border-radius: 8px;
     margin-bottom: 25px;
 }
+.main-btn:hover{
+    padding: 0.95em 1.75em;
+    opacity: 0.8;
+    transition: padding 0.15s , opacity 0.15s ;
+}
 
 .social-icons a{
     color: white;
     font-size: 1.7em;
     padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(27, 27, 221) ;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color:rgb(27, 27, 221) ;
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 1.2em;
+    font-size: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: rgb(7, 11, 42);
+
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px , solid,white ;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width: 100%;
+    
+}
+.project-image:hover{
+    opacity: 0.9; 
+}
+
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color:black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color:rgb(27, 27, 221) ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.more-details:hover{
+    color: rgb(0, 0, 91);
 }
