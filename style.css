@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:rgb(22, 2, 56);
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color :azure;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1em;
+    padding-left: 30px;
+    transition: 0.15s;
+}
+
+.navigation a:hover{
+    font-size:1.1em ;
+    color: rgb(184, 184, 255);
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+}
+.main span{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.main h3{
+    color: rgb(236, 9, 9);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.main-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(27, 27, 221) ;
+    display: inline-block;
+    padding: 0.9em 1.7em;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.main-btn:hover{
+    padding: 0.95em 1.75em;
+    opacity: 0.8;
+    transition: padding 0.15s , opacity 0.15s ;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(27, 27, 221) ;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color:rgb(27, 27, 221) ;
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 1.2em;
+    font-size: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: rgb(7, 11, 42);
+
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px , solid,white ;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width: 100%;
+    
+}
+.project-image:hover{
+    opacity: 0.9; 
+}
+
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color:black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color:rgb(27, 27, 221) ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.more-details:hover{
+    color: rgb(0, 0, 91);
+}
